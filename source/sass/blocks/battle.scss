@@ -1,0 +1,59 @@
+.battle {
+  width: 100%;
+  min-width: 1024px;
+  height: 550px;
+  background-image: url(../img/battle-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+
+
+.battle__title {
+  text-transform: uppercase;
+  font-family: BeaufortforLOL-Bold;
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  text-align: right;
+
+  padding-top: 130px;
+
+  margin-left: auto;
+  margin-bottom: 30px;
+
+  position: relative;
+}
+
+.battle__title::before {
+  position: absolute;
+  content: "";
+  top: 70px;
+  left: -50px;
+  z-index: 10;
+  width: 600px;
+  height: 450px;
+  background-image: url(../img/battle-bg-2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.battle__title span {
+  color: #ffdf38;
+}
+
+.battle__subtitle {
+  width: 570px;
+  text-align: right;
+  margin-left: auto;
+  color: #fff;
+
+  font-family: BeaufortforLOL-Bold;
+  font-size: 24px;
+  font-weight: bold;
+}

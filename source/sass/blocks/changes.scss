@@ -1,0 +1,36 @@
+.changes {
+  width: 100%;
+  min-width: 1024px;
+  height: 653px;
+  background-image: url(../img/changes-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.changes__title {
+  text-transform: uppercase;
+  font-family: BeaufortforLOL-Bold;
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+
+  padding-top: 115px;
+  margin-bottom: 30px;
+}
+
+.changes__title span {
+  color: #ffdf38;
+}
+
+.changes__list li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.changes__list p {
+  font-family: BeaufortforLOL-Bold;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}

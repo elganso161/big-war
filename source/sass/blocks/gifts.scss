@@ -1,0 +1,56 @@
+.gifts {
+  width: 100%;
+  min-width: 1024px;
+  height: 735px;
+  background-image: url(../img/gifts-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.gifts__title {
+  width: 608px;
+  margin: 0 auto;
+  text-align: center;
+
+  text-transform: uppercase;
+  font-family: BeaufortforLOL-Bold;
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+
+  padding-top: 130px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.gifts__title span {
+  color: #ffdf38;
+}
+
+
+.gifts__title::before {
+  position: absolute;
+  content: "";
+  top: 250px;
+  left: 0;
+  z-index: 10;
+  width: 700px;
+  height: 340px;
+  background-image: url(../img/gifts-bg-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.gifts__text {
+  width: 570px;
+  text-align: center;
+  color: #fff;
+
+  font-family: BeaufortforLOL-Bold;
+  font-size: 24px;
+  font-weight: bold;
+
+  margin: 0 auto;
+}

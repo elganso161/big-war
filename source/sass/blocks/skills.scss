@@ -1,0 +1,50 @@
+.skills {
+  width: 100%;
+  min-width: 1024px;
+  height: 600px;
+  background-image: url(../img/skills-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.skills__title {
+  text-transform: uppercase;
+  font-family: BeaufortforLOL-Bold;
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+
+  padding-top: 115px;
+  margin-bottom: 30px;
+
+  position: relative;
+}
+
+.skills__title::before {
+  position: absolute;
+  content: "";
+  top: 80px;
+  left: 550px;
+  z-index: 10;
+  width: 600px;
+  height: 450px;
+  background-image: url(../img/skills-bg-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.skills__title span {
+  color: #ffdf38;
+}
+
+.skills__text {
+  font-family: BeaufortforLOL-Bold;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  width: 550px;
+}

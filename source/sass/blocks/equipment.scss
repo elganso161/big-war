@@ -1,0 +1,57 @@
+.equipment {
+  width: 100%;
+  min-width: 1024px;
+  height: 600px;
+  background-image: url(../img/equipment-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.equipment__title {
+  text-transform: uppercase;
+  font-family: BeaufortforLOL-Bold;
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  text-align: right;
+
+  padding-top: 130px;
+
+  margin-left: auto;
+  margin-bottom: 30px;
+
+  position: relative;
+}
+
+.equipment__title::before {
+  position: absolute;
+  content: "";
+  top: 80px;
+  left: -70px;
+  z-index: 10;
+  width: 600px;
+  height: 450px;
+  background-image: url(../img/equipment-bg-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.equipment__title span {
+  color: #ffdf38;
+}
+
+.equipment__text {
+  width: 570px;
+  text-align: right;
+  margin-left: auto;
+  color: #fff;
+
+  font-family: BeaufortforLOL-Bold;
+  font-size: 24px;
+  font-weight: bold;
+}
